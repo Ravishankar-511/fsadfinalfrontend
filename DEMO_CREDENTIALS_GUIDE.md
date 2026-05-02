@@ -1,4 +1,4 @@
-# 🔐 ServiceConnect - Demo Credentials Guide
+# 🔐 WorkSphere - Demo Credentials Guide
 
 ## Quick Start
 

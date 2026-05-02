@@ -1,7 +1,7 @@
 // src/config/demoCredentials.js
 
 /**
- * Demo Credentials for ServiceConnect Application
+ * Demo Credentials for WorkSphere Application
  * Use these credentials to access different dashboard roles
  */
 

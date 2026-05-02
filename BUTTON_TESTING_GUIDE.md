@@ -2,7 +2,7 @@
 
 ## 🎯 How to Test All Buttons
 
-This guide walks you through testing every button in the ServiceConnect application.
+This guide walks you through testing every button in the WorkSphere application.
 
 ---
 

@@ -173,5 +173,5 @@ export const reviews = [
     { id: 1, name: 'Sneha R.', city: 'Mumbai', rating: 5, text: 'Absolutely amazing service! The plumber arrived on time and fixed everything quickly. Will definitely use again!', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sneha' },
     { id: 2, name: 'Kiran D.', city: 'Bangalore', rating: 5, text: 'The cleaning team was professional and thorough. My home sparkles. Worth every rupee!', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Kiran' },
     { id: 3, name: 'Amit P.', city: 'Delhi', rating: 4, text: 'Good experience overall. The electrician was knowledgeable and respectful. Quick turnaround.', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Amit' },
-    { id: 4, name: 'Preethi K.', city: 'Chennai', rating: 5, text: 'ServiceConnect is my go-to for home services. Always reliable and transparent pricing!', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Preethi' },
+    { id: 4, name: 'Preethi K.', city: 'Chennai', rating: 5, text: 'WorkSphere is my go-to for home services. Always reliable and transparent pricing!', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Preethi' },
 ];
