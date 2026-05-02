@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-    baseURL: 'http://localhost:8082',
+    baseURL: 'https://fsadfinalbackend-production.up.railway.app',
     headers: {
         'Content-Type': 'application/json',
     },

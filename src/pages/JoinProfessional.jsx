@@ -82,7 +82,7 @@ const JoinProfessional = () => {
 
         try {
             // 3. API CALL: Send new professional data to Express server
-            const response = await fetch('http://localhost:5000/api/professionals', {
+            const response = await fetch('https://fsadfinalbackend-production.up.railway.app/api/professionals', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(newProfessional),

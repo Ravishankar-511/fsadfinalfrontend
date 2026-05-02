@@ -43,7 +43,7 @@ const ProfessionalFinder = () => {
     useEffect(() => {
         const fetchProfessionals = async () => {
             try {
-                const res = await fetch('http://localhost:5000/api/professionals'); 
+                const res = await fetch('https://fsadfinalbackend-production.up.railway.app/api/professionals'); 
                 
                 if (res.ok) {
                     const data = await res.json();
