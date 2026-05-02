@@ -116,7 +116,7 @@ export default function LoginPage() {
                 const user = localUser || demoUser;
                 performLogin(user.email, user.password, user.role || 'user', user);
             } else {
-                const errorMsg = error.response?.data?.message || 'Invalid email or password. Ensure backend is running.';
+                const errorMsg = error.response?.data?.message || 'Unable to connect to server. Please try again later.';
                 setErrors({ form: errorMsg });
                 setIsLoading(false);
             }

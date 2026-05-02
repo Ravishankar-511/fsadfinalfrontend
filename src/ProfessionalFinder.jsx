@@ -4,6 +4,7 @@ import PopularCategories from './components/PopularCategories.jsx';
 import { Link } from 'react-router-dom'; 
 import StarRating from './components/StarRating.jsx'; 
 import useDebounce from './hooks/useDebounce.js';
+import { BASE_API_URL } from './api/axiosConfig';
 
 const ProfessionalFinder = () => {
     // --- STATE MANAGEMENT ---
@@ -43,7 +44,7 @@ const ProfessionalFinder = () => {
     useEffect(() => {
         const fetchProfessionals = async () => {
             try {
-                const res = await fetch('https://fsadfinalbackend-production.up.railway.app/api/professionals'); 
+                const res = await fetch(`${BASE_API_URL}/api/professionals`); 
                 
                 if (res.ok) {
                     const data = await res.json();

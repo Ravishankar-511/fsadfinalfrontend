@@ -1,6 +1,7 @@
 // src/pages/JoinProfessional.jsx
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { BASE_API_URL } from '../api/axiosConfig';
 
 // Helper function for basic email format validation
 const validateEmail = (email) => {
@@ -81,8 +82,8 @@ const JoinProfessional = () => {
         };
 
         try {
-            // 3. API CALL: Send new professional data to Express server
-            const response = await fetch('https://fsadfinalbackend-production.up.railway.app/api/professionals', {
+            // 3. API CALL: Send new professional data to backend server
+            const response = await fetch(`${BASE_API_URL}/api/professionals`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(newProfessional),
@@ -101,7 +102,7 @@ const JoinProfessional = () => {
             window.location.reload(); 
 
         } catch (error) {
-            console.error("API Submission Failed. Ensure backend server is running.", error);
+            console.error("API Submission Failed. Unable to connect to server.", error);
             alert("Submission failed. Unable to connect to server. Please try again later.");
         } finally {
             setIsLoading(false);

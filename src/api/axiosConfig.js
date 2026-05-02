@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+export const BASE_API_URL = 'https://fsadfinalbackend-production.up.railway.app';
+
 const API = axios.create({
-    baseURL: 'https://fsadfinalbackend-production.up.railway.app',
+    baseURL: BASE_API_URL,
     headers: {
         'Content-Type': 'application/json',
     },
