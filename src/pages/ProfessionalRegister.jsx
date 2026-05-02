@@ -165,7 +165,7 @@ export default function ProfessionalRegister() {
             }
         } catch (error) {
             console.error('Error registering professional:', error);
-            const errorMsg = error.response?.data?.message || 'Failed to connect to server. Ensure backend is running on port 8082.';
+            const errorMsg = error.response?.data?.message || 'Unable to connect to server. Please try again later.';
             setErrors({ form: errorMsg });
         } finally {
             setIsLoading(false);

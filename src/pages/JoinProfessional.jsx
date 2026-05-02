@@ -102,7 +102,7 @@ const JoinProfessional = () => {
 
         } catch (error) {
             console.error("API Submission Failed. Ensure backend server is running.", error);
-            alert("Submission failed. Ensure backend server is running on port 5000.");
+            alert("Submission failed. Unable to connect to server. Please try again later.");
         } finally {
             setIsLoading(false);
         }
